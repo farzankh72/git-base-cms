@@ -26,13 +26,13 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `md`,
-        path: `${__dirname}/src/contents`,
+        path: `${__dirname}/contents`,
       },
     },{
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `image`,
-        path: `${__dirname}/src/statics`,
+        path: `${__dirname}/static`,
       },
     },
     `gatsby-plugin-netlify-cms`,
